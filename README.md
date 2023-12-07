@@ -2,7 +2,7 @@
 # Persona
 #### **SNS형 매칭 플랫폼**  
   
-</br></br>
+</br>
       
 ## Why Persona?
 ### 함께 공연할 사람을 찾고있나요? Persona에서 만나보세요!
@@ -13,12 +13,12 @@
  - 댄스 커버 영상를 함께할 멤버를 구하고있나요?  
  - 페르소나에서 새로운 멤버를 만나고 자신의 실력을 보여주세요!   
 
-
+</br>
 
 ## :calendar: 프로젝트 기간
 - 2022.12 ~ 2023.8  
   
-  
+</br>
   
 ## :runner: 팀원 
 기획 : 정우균  
@@ -26,16 +26,14 @@
 백엔드 Spring Boot : 김현주  
 CI/CD : 김현주  
 
-
+</br>
 
 ## :clipboard: Project Architecture
 ![architecture.png](img/architecture.png)  
 
-
+</br>
 
 ## :wrench: Tools  
-
-
 ### Design  
 - <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
 
@@ -71,17 +69,17 @@ CI/CD : 김현주
 - <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">  
 - <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">  
 
+</br>
 
-
-### API
+## API
 ![api.png](img/api.png)  
 
+</br>
 
-
-### ERD
+## ERD
 ![erd.png](img/erd.png)  
 
-
+</br>
 
 ## :white_check_mark:주요 기능
 **회원가입 / 로그인**
@@ -106,12 +104,13 @@ CI/CD : 김현주
 
 [상세 페이지](https://www.notion.so/54758e6ba123461597073123e5012b80)  
 
+</br>
 
 ## CI/CD
 ![cicd.png](img/cicd.png)
 [과정](https://www.notion.so/Jenkins-215b52f1d4354d2fa522f9514773d8da)  
 
-
+</br>
 
 ### 향후 목표
 - 테스트코드 작성
