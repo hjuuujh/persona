@@ -2,8 +2,7 @@
 # Persona
 #### **SNS형 매칭 플랫폼**  
   
-    
-      
+</br></br>
       
 ## Why Persona?
 ### 함께 공연할 사람을 찾고있나요? Persona에서 만나보세요!
@@ -84,7 +83,7 @@ CI/CD : 김현주
 
 
 
-### :white_check_mark:주요 기능
+## :white_check_mark:주요 기능
 **회원가입 / 로그인**
 - 유효한 이메일만 가입하도록 중복 확인
 - JWT를 통한 로그인
@@ -108,7 +107,7 @@ CI/CD : 김현주
 [상세 페이지](https://www.notion.so/54758e6ba123461597073123e5012b80)  
 
 
-### CI/CD
+## CI/CD
 ![cicd.png](img/cicd.png)
 [과정](https://www.notion.so/Jenkins-215b52f1d4354d2fa522f9514773d8da)  
 
