@@ -6,14 +6,14 @@
       
       
 ## Why Persona?
----
 ### 함께 공연할 사람을 찾고있나요? Persona에서 만나보세요!
  
  
  - 연극, 뮤지컬에서 배우를 캐스팅 하고있나요?  
- 밴드의 특정 포지션 악기 연주자가 필요한가요?  
- 댄스 커버 영상를 함께할 멤버를 구하고있나요?  
- 페르소나에서 새로운 멤버를 만나고 자신의 실력을 보여주세요!   
+ - 밴드의 특정 포지션 악기 연주자가 필요한가요?  
+ - 댄스 커버 영상를 함께할 멤버를 구하고있나요?  
+ - 페르소나에서 새로운 멤버를 만나고 자신의 실력을 보여주세요!   
+
 
 
 ### :calendar: 프로젝트 기간
@@ -33,8 +33,10 @@ CI/CD : 김현주
 ![architecture.png](img/architecture.png)  
 
 
-<img src="">
-### :wrench: Tools
+
+### :wrench: Tools  
+
+
 - Design  
 <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
 
@@ -52,7 +54,7 @@ CI/CD : 김현주
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"><img src="https://img.shields.io/badge/2.7.6-515151?style=for-the-badge">  
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"><img src="https://img.shields.io/badge/8-515151?style=for-the-badge">  
 <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">  
-<img src="https://img.shields.io/badge/mobx-#FF9955?style=for-the-badge&logo=mobx&logoColor=white">  
+<img src="https://img.shields.io/badge/mobx-FF9955?style=for-the-badge&logo=mobx&logoColor=white">  
 
 
 
