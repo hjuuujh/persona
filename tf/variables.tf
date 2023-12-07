@@ -1,6 +1,6 @@
 variable "my_ip" {
   type    = string
-  default = "175.113.153.77/32"
+  default = "/32"
 }
 variable "key_pair_name" {
   type    = string
