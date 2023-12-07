@@ -1,0 +1,4 @@
+- name: run java
+  shell:
+    cmd: |
+      nohup java -jar /home/ubuntu/backend-0.0.1.jar>out.log 2>&1 &

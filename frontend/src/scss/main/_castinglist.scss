@@ -1,0 +1,103 @@
+#video {
+	width: 100%;
+	margin: 0px auto;
+	background-color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	h1 {
+		font: 24px/2 'Oswald';
+		color: #ae8854;
+	}
+	h2 {
+		margin: 5px;
+		font: 30px/1 'East Sea Dokdo';
+		color: #ae8854;
+	}
+	p {
+		margin: 5px;
+		font: 20px/1.5 'Oswald';
+		color: #fff;
+	}
+	a {
+		margin: 5px;
+		font: 20px/1.5 'Oswald';
+		color: pink;
+	}
+	.category {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		li {
+			display: inline-block;
+			padding: 20px 20px;
+		}
+	}
+	.tags {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		li {
+			display: inline-block;
+			padding: 20px 20px;
+		}
+	}
+	.vid {
+		width: 280px;
+		height: 400px;
+		padding: 35px 15px;
+		margin: 10px 0;
+		border-radius: 5px;
+		position: relative;
+		// text-align: center;
+		background-color: #fff;
+		p {
+			font: 20px/1 'Noto Sans KR';
+			color: #000;
+		}
+		.id {
+			position: absolute;
+			top: 5px;
+			.MuiChip-root {
+				height: 25px;
+				.MuiAvatar-root {
+					width: 20px;
+					height: 20px;
+				}
+				img {
+					object-fit: cover;
+				}
+				span {
+					color: #000;
+					font-size: 14px;
+				}
+			}
+		}
+		video {
+			width: 250px;
+			height: 250px;
+			object-fit: cover;
+		}
+		#btn {
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+		}
+		.title {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			position: absolute;
+			bottom: 75px;
+		}
+		.tag {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			position: absolute;
+			bottom: 30px;
+		}
+	}
+}

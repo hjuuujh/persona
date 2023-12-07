@@ -1,0 +1,112 @@
+pipeline {
+    agent any
+    tools {nodejs "nodejs"}
+    stages {
+        stage('start') {
+            steps {
+                slackSend (
+                    channel: '#persona', 
+                    color: '#FFFF00', 
+                    message: "STARTED: Frontend React Job "
+                )
+            }
+        }
+        stage ('Workspace Clean') {
+            steps {
+             cleanWs()   
+            }
+        }
+        stage ('git clone') {
+            steps {
+                sh  """
+                    echo ${WORKSPACE}
+                    git clone https://github.com/hjuuujh/persona-frontend.git 
+                    """
+            }
+        }
+        stage ('npm build') {
+            steps {
+                sh  """
+                    cd persona-frontend
+                    cp /usr/local/share/.env.local .
+                    ls -al
+                    npm install
+                    CI=false npm run build
+                    """
+            }
+            post {
+                success {
+                    slackSend (
+                        channel: '#persona', 
+                        color: '#00FF00', 
+                        message: "SUCCESS: Frontend React Build"
+                    )
+                }
+                failure {
+                    slackSend (
+                        channel: '#persona', 
+                        color: '#FF0000', 
+                        message: "FAIL: Frontend React Build "
+                    )
+                }
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'testing Frontend React...'
+            }
+            post {
+                success {
+                    slackSend (
+                        channel: '#persona', 
+                        color: '#00FF00', 
+                        message: "SUCCESS: Frontend React Test"
+                    )
+                }
+                failure {
+                    slackSend (
+                        channel: '#persona', 
+                        color: '#FF0000', 
+                        message: "FAIL: Frontend React Test "
+                    )
+                }
+            }
+        }
+        stage ('Ansible Deploy') { 
+            steps {
+                script {
+                    MY_KEYPAIR_NAME = "persona-key-pair" 
+                    MY_APP_PRIVATE_IP = "10.1.1.138" 
+                    
+                    sh  """ 
+                        git clone https://github.com/hjuuujh/persona-ansible.git 
+                        cd  persona-ansible 
+
+                        sed -i 's/MY_KEYPAIR_NAME/${MY_KEYPAIR_NAME}/g' hosts/hosts
+                        sed -i 's/MY_APP_PRIVATE_IP/${MY_APP_PRIVATE_IP}/g' hosts/hosts
+                        ansible-playbook deploy_frontend.yml -i ./hosts/hosts --extra-vars "deploy_hosts=app" 
+                        """
+                    
+                }
+               
+            }
+            post {
+                success {
+                    slackSend (
+                        channel: '#persona', 
+                        color: '#00FF00', 
+                        message: "SUCCESS: Frontend React Deploy [URL: http://ratee.net]"
+                    )
+                }
+                failure {
+                    slackSend (
+                        channel: '#persona', 
+                        color: '#FF0000', 
+                        message: "FAIL: Frontend React  Deploy "
+                    )
+                }
+            }
+        }
+        
+    }
+}

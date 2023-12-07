@@ -1,0 +1,193 @@
+#work {
+	width: 917px;
+	margin: 0px auto;
+	background-color: #000;
+	h1 {
+		margin: 5px;
+		font: 25px/2 'Oswald';
+		color: #ae8854;
+	}
+	p {
+		margin: 5px;
+		font: 20px/1.5 'Oswald';
+		color: #fff;
+	}
+	h2 {
+		margin: 5px;
+		font: 20px/1.5 'Oswald';
+		color: pink;
+	}
+	.category {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		li {
+			display: inline-block;
+			padding: 20px 20px;
+		}
+	}
+	.tags {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		li {
+			display: inline-block;
+			padding: 20px 20px;
+		}
+	}
+	.cards {
+		.card {
+			width: 280px;
+			height: 400px;
+			padding: 35px 15px;
+			margin: 10px 0;
+			position: relative;
+			background-color: #fff;
+			h1,
+			a {
+				font: 30px/1 'East Sea Dokdo';
+				color: #ae8854;
+			}
+			h2,
+			p {
+				font: 30px/1 'East Sea Dokdo';
+				color: #000;
+			}
+
+			.id {
+				position: absolute;
+				top: 5px;
+				.MuiChip-root {
+					height: 25px;
+					.MuiAvatar-root {
+						width: 20px;
+						height: 20px;
+					}
+					img {
+						object-fit: cover;
+					}
+					span {
+						color: #000;
+						font-size: 14px;
+					}
+				}
+			}
+			.post_date {
+				position: absolute;
+				top: 5px;
+				right: 1px;
+			}
+
+			.content {
+				width: '260px';
+				height: '260px';
+				background-color: #333;
+				.top {
+					display: flex;
+					justify-content: space-between;
+					padding: 5px;
+					.sort {
+						padding: 0 5px;
+
+						h2 {
+							color: #fff;
+						}
+					}
+					.short {
+						background-color: #04aa046c;
+					}
+					.long {
+						background-color: #042baa73;
+					}
+					.etc {
+						background-color: #aa04aa6f;
+					}
+					.deadline {
+						display: flex;
+						justify-content: space-between;
+
+						h2,
+						p {
+							color: yellow;
+						}
+					}
+				}
+				.middle {
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+					padding: 5px;
+					.buttons {
+						.btn {
+							padding: 5px;
+							margin: 2px;
+						}
+					}
+				}
+				.bottom {
+					display: flex;
+					justify-content: space-between;
+					padding: 5px;
+					.keyword {
+						display: flex;
+						justify-content: space-between;
+					}
+				}
+				.more {
+					#info {
+						color: #fff;
+					}
+					.description {
+						width: 100%;
+						margin: 0px auto;
+						background-color: #ddd;
+						p {
+							margin: 5px;
+							font: 16px/1.5 'Oswald';
+							color: #222;
+						}
+
+						h2 {
+							margin: 5px;
+							font: 16px/1.5 'Oswald';
+							color: #000;
+						}
+						.story {
+							margin: 1px;
+							border: 1px solid #000;
+						}
+						.purpose {
+							margin: 1px;
+							border: 1px solid #000;
+						}
+						.details {
+							display: flex;
+							justify-content: space-around;
+
+							.left {
+								width: 50%;
+								margin: 1px;
+								border: 1px solid #000;
+							}
+							.right {
+								width: 50%;
+								margin: 1px;
+								border: 1px solid #000;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.pages {
+		#page {
+			ul {
+				height: 40px;
+				background-color: #999;
+				display: flex;
+				justify-content: center;
+			}
+		}
+	}
+}

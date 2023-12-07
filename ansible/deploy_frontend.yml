@@ -1,0 +1,9 @@
+- name: admin user add
+  hosts: "{{ deploy_hosts }}"
+   
+  remote_user: "{{default_user}}"
+  vars_files:
+    - "vars/all.yml"
+
+  roles:
+    - frontend

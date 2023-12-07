@@ -1,0 +1,32 @@
+#vidpost {
+	width: 917px;
+	margin: 0px auto;
+	background-color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	h1,
+	a {
+		font: 20px/1 'Abel';
+		color: #ae8854;
+	}
+	h1 {
+		color: #fff;
+	}
+	.vid {
+		width: 25%;
+		padding: 5px;
+		text-align: center;
+		.title {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			align-items: baseline;
+		}
+		video {
+			width: 100%;
+			height: 400px;
+			object-fit: cover;
+		}
+	}
+}

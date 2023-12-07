@@ -1,0 +1,106 @@
+#intro {
+	width: 917px;
+	margin: 0px auto;
+	background-color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	h1,
+	a {
+		font: 20px/1 'Abel';
+		color: #ae8854;
+	}
+	h2,
+	p {
+		font: 20px/1 'Abel';
+		color: #fff;
+	}
+	.userUpdate{
+		background-color: #000;
+		font: 15px/1 'Abel';
+		color: #ae8854;
+		border:groove #ae8854;
+	}
+	.vid {
+		width: 25%;
+		text-align: center;
+		video {
+			width: 100%;
+			height: 400px;
+			object-fit: cover;
+		}
+	}
+	.info {
+		width: 50%;
+		padding: 5px;
+	}
+	.stat {
+		width: 25%;
+		background-color: #222;
+		padding: 5px;
+		.userUpdate{
+			background-color: #000;
+			font: 15px/1 'Abel';
+			color: #ae8854;
+			margin-top:80%;
+			border:groove #ae8854;
+		}
+		h1 {
+			font: 20px/1 'Abel';
+			color: #ae8854;
+			display: flex;
+			margin-bottom: 20%;
+		}
+		.profile_follow {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-around;
+			.profile {
+				.MuiChip-root {
+					height: 50px;
+					.MuiAvatar-root {
+						width: 40px;
+						height: 40px;
+					}
+					img {
+						object-fit: cover;
+					}
+					span {
+						color: #fff;
+						font-size: 16px;
+					}
+				}
+			}
+			.follow {
+				display: flex;
+				flex-wrap: wrap;
+			}
+		}
+		.body {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+
+			.height {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.weight {
+				display: flex;
+				flex-wrap: wrap;
+			}
+		}
+		.special {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.career {
+			p {
+				font: 18px/1 'Abel';
+				color: #fff;
+			}
+		}
+	}
+}

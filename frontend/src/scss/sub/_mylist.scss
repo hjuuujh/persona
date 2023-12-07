@@ -1,0 +1,99 @@
+#mylist {
+	background-color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	.category {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding: 6px;
+		li {
+			display: inline-block;
+			padding: 4px 4px;
+		}
+	}
+	.tags {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding: 6px;
+		li {
+			display: inline-block;
+			padding: 4px 4px;
+		}
+	}
+	.search {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding: 6px;
+		li {
+			display: inline-block;
+			padding: 4px 4px;
+		}
+	}
+	.vid {
+		width: 280px;
+		height: 450px;
+		padding: 35px 15px;
+		margin: 10px 0;
+		border-radius: 5px;
+		position: relative;
+		// text-align: center;
+		background-color: #fff;
+		p {
+			font: 15px/1 'Noto Sans KR';
+			color: #000;
+		}
+		.id {
+			position: absolute;
+			top: 5px;
+			.MuiChip-root {
+				height: 25px;
+				.MuiAvatar-root {
+					width: 20px;
+					height: 20px;
+				}
+				img {
+					object-fit: cover;
+				}
+				span {
+					color: #000;
+					font-size: 14px;
+				}
+			}
+		}
+		#btn {
+			position: absolute;
+			bottom: 6px;
+			right: 15px;
+		}
+		video {
+			width: 250px;
+			height: 300px;
+			object-fit: cover;
+		}
+	}
+	.title {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		position: absolute;
+		bottom: 80px;
+		.name {
+			width: 160px;
+			text-align: center;
+		}
+	}
+	.tag {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		position: absolute;
+		bottom: 45px;
+	}
+}

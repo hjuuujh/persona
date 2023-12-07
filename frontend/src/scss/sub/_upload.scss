@@ -1,0 +1,20 @@
+#upload {
+	background-color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	table {
+		padding: 10px;
+	}
+  .tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    li {
+      display: inline-block;
+      padding: 4px 4px;
+    }
+  }
+}

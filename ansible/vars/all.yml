@@ -1,0 +1,8 @@
+default_user : ubuntu
+default_group : ubuntu
+
+backend_src_path : /var/lib/jenkins/workspace/deploy-backend/persona-backend/build/libs/backend-0.0.1.jar
+backend_dest_path : /home/ubuntu
+
+frontend_src_path : /var/lib/jenkins/workspace/deploy-frontend/persona-frontend/build
+frontend_dest_path : /usr/share/nginx

@@ -1,0 +1,92 @@
+persona-key-pair.pem
+rds
+annotation.txt
+data/
+lambda/
+
+# terraform
+tf/*.tfstate
+tf/*.tfstate.backup
+tf/*.tfstate.lock.info
+tf/*gitignore*.tf
+tf/.terraform/
+tf/*.log
+tf/*.bak
+tf/.vagrant/
+
+tf/override.tf
+tf/override.tf.json
+tf/*_override.tf
+tf/*_override.tf.json
+
+.DS_Store
+.vscode/
+.sentinel
+tf/.terraformrc
+tf/terraform.rc
+
+# spring boot
+backend/HELP.md
+backend/.gradle
+backend/build/
+backend/!gradle/wrapper/gradle-wrapper.jar
+backend/!**/src/main/**/build/
+backend/!**/src/test/**/build/
+
+### STS ###
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings
+backend/.springBeans
+backend/.sts4-cache
+backend/bin/
+backend/!**/src/main/**/bin/
+backend/!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+backend/.idea
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+backend/out/
+backend/!**/src/main/**/out/
+backend/!**/src/test/**/out/
+
+### NetBeans ###
+backend//nbproject/private/
+backend//nbbuild/
+backend//dist/
+backend//nbdist/
+backend//.nb-gradle/
+
+### VS Code ###
+backend/.vscode/
+
+# react
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+frontend/.env.local

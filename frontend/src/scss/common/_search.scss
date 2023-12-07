@@ -1,0 +1,27 @@
+.search {
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	ul {
+		li {
+			.category {
+				background: #444;
+				color: #ae8854;
+				border: #444;
+				height: 40px;
+				width: 70px;
+			}
+			.d-flex {
+				.me-2 {
+					background: #444;
+					color: #ae8854;
+					border: #444;
+					height: 40px;
+					width: 360px;
+				}
+			}
+		}
+	}
+}
