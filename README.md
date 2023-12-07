@@ -16,12 +16,12 @@
 
 
 
-### :calendar: 프로젝트 기간
+## :calendar: 프로젝트 기간
 - 2022.12 ~ 2023.8  
   
   
   
-### :runner: 팀원 
+## :runner: 팀원 
 기획 : 정우균  
 프론트엔드 React : 정우균, 김현주  
 백엔드 Spring Boot : 김현주  
@@ -29,50 +29,50 @@ CI/CD : 김현주
 
 
 
-### :clipboard: Project Architecture
+## :clipboard: Project Architecture
 ![architecture.png](img/architecture.png)  
 
 
 
-### :wrench: Tools  
+## :wrench: Tools  
 
 
-- Design  
-<img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
-
-
-
-- Frontend  
-<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"><img src="https://img.shields.io/badge/18.2.0-515151?style=for-the-badge">  
-<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">  
-<img src="">  
+### Design  
+- <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white">
 
 
 
-
-- Backend  
-<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"><img src="https://img.shields.io/badge/2.7.6-515151?style=for-the-badge">  
-<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"><img src="https://img.shields.io/badge/8-515151?style=for-the-badge">  
-<img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">  
-<img src="https://img.shields.io/badge/mobx-FF9955?style=for-the-badge&logo=mobx&logoColor=white">  
+### Frontend  
+- <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"><img src="https://img.shields.io/badge/18.2.0-515151?style=for-the-badge">  
+- <img src="https://img.shields.io/badge/mobx-FF9955?style=for-the-badge&logo=mobx&logoColor=white">  
+- <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">  
 
 
-
-
-- Data  
-
+### Backend  
+- <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"><img src="https://img.shields.io/badge/2.7.6-515151?style=for-the-badge">  
+- <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"><img src="https://img.shields.io/badge/8-515151?style=for-the-badge">  
+- <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">  
 
 
 
-
-- Infrastructure  
-
-- Dev tools  
-
+### Data  
+- <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">  
+- <img src="https://img.shields.io/badge/amazonrds-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white">  
 
 
 
-  
+### Infrastructure  
+- <img src="https://img.shields.io/badge/amazonaws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">  
+- <img src="https://img.shields.io/badge/terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white">  
+- <img src="https://img.shields.io/badge/ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white">  
+
+### Dev tools  
+- <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">  
+- <img src="https://img.shields.io/badge/intellijidea-000000?style=for-the-badge&logo=intellijidea&logoColor=white">  
+- <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">  
+- <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">  
+
+
 
 ### API
 ![api.png](img/api.png)  
@@ -112,7 +112,6 @@ CI/CD : 김현주
 ![cicd.png](img/cicd.png)
 [과정](https://www.notion.so/Jenkins-215b52f1d4354d2fa522f9514773d8da)  
 
-### IaC
 
 
 ### 향후 목표
