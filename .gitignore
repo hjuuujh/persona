@@ -90,3 +90,4 @@ frontend/yarn-debug.log*
 frontend/yarn-error.log*
 
 frontend/.env.local
+frontend/package-lock.json
