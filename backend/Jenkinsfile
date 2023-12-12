@@ -73,7 +73,7 @@ pipeline {
             steps {
                 script {
                     MY_KEYPAIR_NAME = "persona-key-pair" 
-                    MY_APP_PRIVATE_IP = "10.1.1.150" 
+                    MY_APP_PRIVATE_IP = "" 
                     
                     sh  """
                         git clone https://github.com/hjuuujh/persona-ansible.git 

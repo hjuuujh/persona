@@ -102,13 +102,13 @@ CI/CD : 김현주
 - 보낸/받은 오퍼 리스트확인, 답장
 
 
-[상세 페이지](https://www.notion.so/54758e6ba123461597073123e5012b80)  
+[상세 페이지]
 
 </br>
 
 ## CI/CD
 ![cicd.png](img/cicd.png)
-[과정](https://www.notion.so/Jenkins-215b52f1d4354d2fa522f9514773d8da)  
+[과정]  
 
 </br>
 
