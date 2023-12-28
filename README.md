@@ -108,7 +108,7 @@ CI/CD : 김현주
 
 ## CI/CD
 ![cicd.png](img/cicd.png)
-[과정]  
+[과정](https://www.notion.so/Jenkins-215b52f1d4354d2fa522f9514773d8da?pvs=4)  
 
 </br>
 
